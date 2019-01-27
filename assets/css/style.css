@@ -3,9 +3,110 @@ body{
 	background-repeat: no-repeat;
 	background-size: cover;
 	text-align: center;
+	color: whitesmoke;
+	
+}
+
+.text-muted {
+	color: whitesmoke;
+	/* padding-top: 20px; */
+	margin-bottom:100px;
+	
+}
+
+.container {
+ width: 950px;
+ 
+ padding-top: 20px;
+
+ 
+}
+
+.jumbotron {
+	background-color: lightslategray;
+}
+
+.btn-info {
+
+	margin-left: 10px;
+	margin-right:10px;
+	background-color: purple;
+}
+
+  /* Small Devices */
+  @media screen and (max-width : 360px) {
+	body {
+		width: 100%;
+	}
+
+	.container {
+		width: auto;
+	}
+
+	.btn-info {
+		margin: 0 auto;
+		background-color: purple;
+	}
+
+	#options {
+		
+		margin: 0 auto;
+	}
+
+	.text-muted {		
+		margin-bottom:75px;
+			}
 }
 
 
+/* Small Devices, Tablets */
+@media screen and (max-width : 768px) {
+	body {
+		width: 100%;
+	}
+
+	.container {
+		width: auto;
+	}
+
+	.btn-info {
+		margin: 0 auto;
+		background-color: purple;
+	}
+
+	#options {
+		
+		margin: 0 auto;
+	}
+
+	.text-muted {		
+		margin-bottom:75px;
+			}
+}
 
 
-/* Outstanding: Need to still add more CSS styles */
+/* Medium Devices, Desktops */
+@media screen and (max-width : 980px) {
+	body {
+		width: 100%;
+	}
+
+	.container {
+		width: auto;
+	}
+
+	.btn-info {
+		margin: 0 auto;
+		background-color: purple;
+	}
+
+	#options {
+		
+		margin: 0 auto;
+	}
+
+	.text-muted {		
+		margin-bottom:75px;
+			}
+}
+
